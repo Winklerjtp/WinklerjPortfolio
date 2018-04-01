@@ -14,70 +14,24 @@ $(function() {
 =====================================================================*/
 // About section animations based on if section is in Viewport
 // About title fade in
-$(window).scroll(function() {
-	var topOfElem = $('#about').offset().top;
-	var botOfElem = topOfElem + $('#about').outerHeight();
-	var topOfViewport = $(window).scrollTop();
-	var botOfViewport = topOfViewport + $(window).height();
+// $(window).scroll(function() {
+// 	var topOfElemA = $('#about').offset().top;
+// 	var botOfElemA = topOfElemA + $('#about').outerHeight();
+// 	var topOfViewportA = $(window).scrollTop();
+// 	var botOfViewportA = topOfViewportA + $(window).height();
 
-	if ((botOfElem > topOfViewport) && (topOfElem < botOfViewport)) {
-		return $('#about .content-title').addClass('fade-in');
-	} else {
-		$('#about .content-title').removeClass('fade-in');
-	}
-});
+// 	var topOfElemP = $('#projects').offset().top;
+// 	var botOfElemP = topOfElemP + $('#projects').outerHeight();
+// 	var topOfViewportP = $(window).scrollTop();
+// 	var botOfViewportP = topOfViewportP + $(window).height();
 
-// About left section animation
-$(window).scroll(function() {
-	var topOfElem = $('#about').offset().top;
-	var botOfElem = topOfElem + $('#about').outerHeight();
-	var topOfViewport = $(window).scrollTop();
-	var botOfViewport = topOfViewport + $(window).height();
-
-	if ((botOfElem > topOfViewport) && (topOfElem < botOfViewport)) {
-		return $('#about p').addClass('slide-in-r');
-	} else {
-		$('#about p').removeClass('slide-in-r');
-	}
-});
-
-// About right section animation
-$(window).scroll(function() {
-	var topOfElem = $('#about').offset().top;
-	var botOfElem = topOfElem + $('#about').outerHeight();
-	var topOfViewport = $(window).scrollTop();
-	var botOfViewport = topOfViewport + $(window).height();
-
-	if ((botOfElem > topOfViewport) && (topOfElem < botOfViewport)) {
-		return $('.about-right').addClass('slide-in-lb');
-	} else {
-		$('.about-right').removeClass('slide-in-lb');
-	}
-});
-
-// Projects and contact sections title fade in
-$(window).scroll(function() {
-	var topOfElem = $('#projects').offset().top;
-	var botOfElem = topOfElem + $('#projects').outerHeight();
-	var topOfViewport = $(window).scrollTop();
-	var botOfViewport = topOfViewport + $(window).height();
-
-	if ((botOfElem > topOfViewport) && (topOfElem < botOfViewport)) {
-		return $('#projects .content-title').addClass('fade-in');
-	} else {
-		$('#projects .content-title').removeClass('fade-in');
-	}
-});
-
-$(window).scroll(function() {
-	var topOfElem = $('#contact').offset().top;
-	var botOfElem = topOfElem + $('#contact').outerHeight();
-	var topOfViewport = $(window).scrollTop();
-	var botOfViewport = topOfViewport + $(window).height();
-
-	if ((botOfElem > topOfViewport) && (topOfElem < botOfViewport)) {
-		return $('#contact .content-title').addClass('fade-in');
-	} else {
-		$('#contact .content-title').removeClass('fade-in');
-	}
-});
+// 	if ((botOfElemA > topOfViewportA) && (topOfElemA < botOfViewportA)) {
+// 		return $('#about .content-title').addClass('fade-in'),
+// 			   $('#about p').addClass('slide-in-r'),
+// 			   $('.about-right').addClass('slide-in-lb');
+// 	} else if ((botOfElemP > topOfViewportP) && (topOfElemP < botOfViewportP)) {
+// 		return $('#projects .content-title').addClass('fade-in'),
+// 			   $('#contact .content-title').addClass('fade-in');
+// 	} 
+	
+// });

@@ -361,8 +361,8 @@ a:hover {
 
 .content-title {
 	padding-top: 20px;
-	opacity: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	/*animation: fade-in 2s .5s linear forwards;*/	
 }
 

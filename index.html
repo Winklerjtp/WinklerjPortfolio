@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="description" content="Web portfolio of Justin Winkler, designer, developer.">
+    <meta name="keywords" content="HTML5, CSS3, jQuery, Bootstrap, Web Design, Web Development">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- title -->
+    <title>Justin Winkler</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
+
+	<!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target="port-top-nav" data-offset="90">
+	<!-- Home -->
+	<section id="home">
+        <div class="container">
+              <nav class="navbar navbar-expand-lg port-top-nav">           
+                <a class="navbar-brand" href="#home">
+                    <img src="img/j-logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#home-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-icon ml-auto">
+                        <img src="img/icons/menu-icon.svg" alt="logo">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="home-menu">
+                    <ul class="navbar-nav nav">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>           
+            <div id="home-content">   
+        	<div class="row">
+            	<h3 class="home-title col-lg-11 text-right">Hi. I'm <span>Justin Winkler</span>,</h3>
+            	<div class="col-lg-11">
+	            	<p class="text-right home-text-middle">a passionate designer <span class="stroke">/</span> developer.
+	            	<br>
+	            	You'll find me in Albany, NY. 
+	            	</p>	
+            	</div>
+            	<div class="col-lg-11">
+            		<p class="text-right home-text-bottom">
+            		Learn more <a class="home-link" href="#about">about</a> me below.
+	            	<br>
+	            	Interested in working together? Message me <a class="home-link" href="#contact">here</a>.
+	            	</p>
+            	</div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+    	<div class="content-box">
+			<div class="content-title">
+				<h3>About Me</h3>
+                <div class="content-title-underline">
+                </div>
+			</div>
+            <div class="container">
+                <div class="row">
+                    <div class="about-left col-lg-6">
+                        <p><span>My favorite thing about the web is the open-source community.</span>
+                        <br>
+                        I only hope I can share, inspire, and repay all the knowledge I have received.
+                        <br>
+                        <br>
+                        <span>Beyond being a designer <span class="stroke">/</span> developer,</span>
+                        <br>
+                        I love all things coffe. I roast and grind the beans, and use many methods of 
+                        brewing (my favorite is the pour over method).
+                        <br>
+                        I love baseball. Go Cubs! I'm a fantasy baseball enthusiast, and manage multiple 
+                        teams every season.</p>
+                    </div>
+                    <div class="about-right col-lg-4 offset-lg-1">                       
+                        <h4 class="text-center">My current skills include:</h4>
+                        <ul id="skill-list" class="text-center">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>                                              
+                    </div>
+                </div>
+            </div>
+		</div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+    	<div id="projects-content">
+            <div class="projects-wrapper">
+                <div class="content-title">
+                    <h3>Projects</h3>
+                    <div class="content-title-underline">
+                    </div>
+                </div>
+                <div class="projects-row">
+                    <div class="project-box">
+                        <div class="project-img-wrapper">
+                            <a href="https://winklerjtp.github.io/Jumpstart/" target="_blank">
+                                <img src="img/projects/jump.png" alt="Jumpstart project">
+                            </a>
+                        </div>
+                        <h4 class="project-title">Jumpstart</h4>
+                        <p>A sample website created with HTML, CSS, JavaScript, and jQuery.</p>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-img-wrapper">
+                            <a href="https://winklerjtp.github.io/vesco/" target="_blank">
+                                <img src="img/projects/vesco.png" alt="Vesco projects">
+                            </a>
+                        </div>
+                        <h4 class="project-title">Vesco</h4>
+                        <p>This sample website is created with HTML, CSS, JavaScript, Bootstrap, and a few different jQuery plugins.
+                        </p>
+                    </div>
+                </div>
+            </div>    		
+    	</div>
+    	
+    </section>
+   
+	<!-- Footer -->
+	<footer id="contact">			
+		<div class="content-box">
+			<div class="content-title">
+				<h3>Contact</h3>
+                <div class="content-title-underline">
+                </div>                 
+			</div>
+			<div class="container">
+			<form id="footer-form" method="post" action="https://formspree.io/winklerj.tp@gmail.com">
+				<div class="row justify-content-start">
+	  				<input type="email" name="email" placeholder="Email">
+	  			</div>
+	  			<div class="row justify-content-start">
+	  				<textarea name="message" placeholder="Message"></textarea>
+	  			</div>
+	  			<div class="row justify-content-center">
+	  				<button class="btn btn-red" type="submit">Send</button>
+	  			</div>
+			</form>
+			</div>
+			<div class="row">
+				<ul class="social-list">
+                    <li><a href="https://github.com/Winklerjtp" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/JWinklertp" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href="mailto:winklerj.tp@gmail.com" target="_top"><i class="fa fa-envelope fa-2x"></i></a></li>
+                    <li><a href="https://dribbble.com/WinklerJ" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a></li>
+                    <li><a href="https://codepen.io/WinklerJ/" target="_blank"><i class="fa fa-codepen fa-2x"></i></a></li>
+                </ul>
+            </div>        
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/Bootstrap/bootstrap.min.js"></script>  
+    <!-- JavaScript -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

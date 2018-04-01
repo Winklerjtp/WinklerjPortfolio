@@ -1,0 +1,388 @@
+/*====================================================================
+							 Media Queries
+======================================================================*/
+
+/*Extra large devices (.col-xl-) / desktops*/
+@media (min-width: 1200px) and (max-width: 1440px) {
+	#about,
+	#contact {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		padding: 0 50px;
+	}
+
+	footer .content-box {
+		padding: 0 0 10px 0;
+	}
+
+	#contact {
+		margin: 0 auto;
+	}
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+
+/*Large devices (.col-l-) / desktops, laptops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about,
+	#contact {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		padding: 0 50px;
+	}
+
+	.project-img-wrapper {
+		width: 300px;
+		height: 200px;
+	}
+
+	.project-box {
+		margin: 0 20px;
+		width: 350px;
+	}
+
+	.content-title h3 {
+		font-size: 28.8px;
+		font-size: 1.8rem;
+		margin: 20px 0;
+	}
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	footer .content-box {
+		padding: 0 0 30px 0;
+	}
+
+	#contact {
+		margin: 0 auto;
+	}
+}
+
+
+/*Medium devices (.col-md-) / laptops, tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#about,
+	#contact {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		padding: 0 50px;
+	}
+
+	.about-left {
+		padding: 20px; 
+	}
+
+	.project-box {
+		margin: 0 20px;
+	}
+
+	.content-title h3 {
+		font-size: 28.8px;
+		font-size: 1.8rem;
+		margin: 20px 20px;
+	}
+
+	.content-title-underline {
+		width: 90px;
+		margin: 0 auto 40px auto;
+	}
+
+	.projects-row {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	footer .content-box {
+		padding: 0 0 20px 0;
+	}
+
+	#contact {
+		margin: 0 auto;
+	}
+}
+
+
+/*Small devices (.col-sm-) / tablets, landscape phones*/
+@media (min-width: 576px) and (max-width: 767px) {
+	#about,
+	#contact {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		padding: 0 50px;
+	}
+
+	.about-left {
+		padding: 20px; 
+	}
+
+	.project-box {
+		margin: 0 20px;
+	}
+
+	.content-title h3 {
+		font-size: 24px;
+		font-size: 1.5rem;
+		margin: 20px 20px;
+	}
+
+	.content-title-underline {
+		width: 90px;
+		margin: 0 auto 30px auto;
+	}
+
+	.projects-row {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+
+	.port-top-nav {
+		padding: 5px;
+	}
+
+	.navbar-brand {
+		padding: 0 20px;
+	}
+
+	.navbar-brand img {
+		height: 56px;
+	}
+
+	#home-content {
+		padding-top: 50px;
+		height: 60%;
+	}
+
+	#home h3 {
+		font-size: 28.8px;
+		font-size: 1.8rem;
+	}
+
+	#home p {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.2;
+	}
+
+	.navbar-toggler:focus {
+		outline: none;
+	}
+
+	#about p {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.2;
+	}
+
+	#about p span {
+		font-size: 22.4px;
+		font-size: 1.4rem;
+	}
+
+	.about-right h4 {
+		font-size: 22.4px;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
+
+	#skill-list li {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+
+	.project-img-wrapper {
+		height: 240px;
+		width: 400px;
+	}
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	footer .content-box {
+		padding: 0 0 10px 0;
+	}
+
+	#contact {
+		margin: 0 auto;
+	}
+}
+
+
+/*Extra small devices (.col-) / small phones*/
+@media (min-width: 320px) and (max-width: 575px) {
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#about,
+	#contact {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		padding: 0 50px;
+	}
+
+	.about-left {
+		padding: 20px; 
+	}
+
+	.project-box {
+		margin: 0 20px;
+	}
+
+	.content-title h3 {
+		font-size: 24px;
+		font-size: 1.5rem;
+		margin: 20px 20px;
+	}
+
+	.content-title-underline {
+		width: 60px;
+		margin: 0 auto 30px auto;
+	}
+
+	.projects-row {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+
+	.port-top-nav {
+		padding: 5px;
+	}
+
+	.navbar-brand {
+		padding: 0 20px;
+	}
+
+	.navbar-brand img {
+		height: 56px;
+	}
+
+	#home-content {
+		padding-top: 50px;
+		height: 60%;
+	}
+
+	#home h3 {
+		font-size: 28.8px;
+		font-size: 1.8rem;
+	}
+
+	#home p {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.2;
+	}
+
+	.navbar-toggler:focus {
+		outline: none;
+	}
+
+	#about p {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.2;
+	}
+
+	#about p span {
+		font-size: 22.4px;
+		font-size: 1.4rem;
+	}
+
+	.about-right h4 {
+		font-size: 22.4px;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
+
+	#skill-list li {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+
+	.project-img-wrapper {
+		height: 220px;
+		width: 250px;
+	}
+
+	.project-box {
+		width: 300px;
+		margin: 0;
+	}
+
+	footer .content-box {
+		padding: 0 0 10px 0;
+	}
+
+	#contact {
+		margin: 0 auto;
+	}
+
+	#footer-form {
+		width: 280px;
+	}
+
+	#footer-form input {
+		width: 100%;
+	}
+}
